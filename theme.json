@@ -1,0 +1,7 @@
+{
+    "id": "nodebb-theme-sociableos",
+    "name": "Theme for sociableos.com",
+    "description": "Enter a description here",
+    "url": "https://github.com/SociableOS/nodebb-theme-sociableos",
+    "baseTheme": "nodebb-theme-harmony"
+}
