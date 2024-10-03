@@ -1,0 +1,19 @@
+.card-picker {
+    text-align: center;
+    .card {
+        cursor: pointer;
+    }
+    .card-title {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 0.75rem;
+    }
+}
+
+
+.card-img-top {
+	min-height: 126px;
+}

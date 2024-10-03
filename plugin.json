@@ -14,6 +14,12 @@
 		"public/client.js",
 		"../nodebb-theme-harmony/public/harmony.js"
 	],
+	"acpScripts": [
+		"public/acp.js"
+	],
+	"acpScss": [
+		"scss/admin.scss"
+	],
 	"templates": "templates",
 	"modules": {
 		"../admin/plugins/theme-sociableos.js": "../nodebb-theme-harmony/public/admin.js",
@@ -21,6 +27,7 @@
 	},
 	"staticDirs": {
 		"inter": "node_modules/@fontsource/inter/files",
-		"poppins": "node_modules/@fontsource/poppins/files"
+		"poppins": "node_modules/@fontsource/poppins/files",
+		"assets": "./assets"
 	}
 }

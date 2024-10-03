@@ -77,3 +77,44 @@ $breadcrumb-item-padding-x: 12px !default;
 .form-control::placeholder, .bootstrap-tagsinput::placeholder {
 	color: $gray-500 !important;
 }
+
+.admin {
+	background: black;
+}
+
+.carousel-item {
+
+	border-radius: 8px;
+    overflow: hidden;
+}
+
+.brand-container {
+	display: none;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    background: #111 !important;
+    border-color: #121 !important;
+}
+
+body {
+	//background: #222 !important;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    background-color: green !important;
+}
+.sidebar .truncate-open {
+    overflow: initial;
+    text-overflow: initial;
+    white-space: initial;
+    color: #aaa;
+}
+
+.card-picker .card-img-top {
+	min-height: 126px;
+}
