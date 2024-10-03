@@ -13,13 +13,13 @@
   </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="http://127.0.0.1:4567/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
+        <img src="/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-        <img src="http://127.0.0.1:4567/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
+        <img src="/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-        <img src="http://127.0.0.1:4567/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
+        <img src="/assets/plugins/nodebb-theme-sociableos/assets/categories/hero2.png" class="d-block w-100" alt="...">
         </div>
     </div>
     </div>

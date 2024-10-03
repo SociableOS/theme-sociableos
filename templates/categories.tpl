@@ -4,7 +4,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center" style="padding: 0 80px">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="http://127.0.0.1:4567/assets/plugins/nodebb-theme-sociableos/assets/sociable.png" alt="">
+        <img src="/assets/plugins/nodebb-theme-sociableos/assets/sociable.png" alt="">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -12,7 +12,7 @@
           <li><a href="#hero" class="active">Home</a></li>
           <!-- <li><a href="#about"></a></li>
           <li><a href="#services">For Retail</a></li> -->
-          <li><a href="#team">Team</a></li>
+          <li><a href="#why-us">Team</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
