@@ -61,7 +61,7 @@
 
 
     <!-- Why Us Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
+    <section id="" class="section why-us light-background" data-builder="section">
 
       <div class="container-fluid">
 
@@ -103,7 +103,7 @@
     </section><!-- /About Section -->
     
      <!-- Why Us Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
+    <section id="" class="section why-us light-background" data-builder="section">
 
       <div class="container-fluid">
 
