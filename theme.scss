@@ -2719,6 +2719,17 @@ section,
   .section-explainer .section-explainer-container {
     bottom: 0;
   }
+
+  .client-banner {
+    overflow-x: scroll;
+    width: 100%;
+    min-height: 100%;
+
+    .img-fluid {
+      width: 400%;
+      max-width: 500%;
+    }
+  }
 }
 
 #mc_embed_signup {
