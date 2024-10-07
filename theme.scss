@@ -1591,7 +1591,6 @@ section,
 
 .why-us .faq-container .faq-item h3 span {
   color: var(--accent-color);
-  padding-right: 5px;
   font-weight: 600;
 }
 
@@ -2636,26 +2635,29 @@ section,
 
 .section-explainer {
   min-height: 480px;
+  background-size: cover;
+  padding-left: 30px;
+  position: relative;
   &.section-1 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/example1.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/example1.png);
   }
   &.section-2 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/example2.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/example2.png);
   }
   &.section-3 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/nathon2.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/nathon-left.png);
     min-height: 100vh;
   }
   &.section-4 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/andrew.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/andrew-right.png);
     min-height: 100vh;
   }
   &.section-5 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/brian.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/brian-left.png);
     min-height: 100vh;
   }
   &.section-6 {
-    background: url(/assets/plugins/nodebb-theme-sociableos/assets/jeremy.png);
+    background-image: url(/assets/plugins/nodebb-theme-sociableos/assets/jeremy-right.png);
     min-height: 100vh;
   }
   .section-explainer-title {
@@ -2663,6 +2665,12 @@ section,
     color: white;
     padding: 8px 20px;
     margin-bottom: 25px;
+    max-width: 375px;
+    margin-top: 50px;
+  }
+  .section-explainer-container {
+    position: absolute;
+    bottom: 50px;
   }
 }
 
@@ -2673,6 +2681,7 @@ section,
 .why-us .faq-container .faq-item {
   overflow: hidden;
   border-radius: 3px;
+  max-width: 75%;
 }
 
 .faq-container .faq-item .faq-content {
@@ -2686,6 +2695,7 @@ section,
 
 .why-us .faq-container .faq-active h3, .why-us .faq-container .faq-active .h3 {
   color: black;
+  font-size: 14px;
 }
 .why-us .content h3, .why-us .content .h3 {
   padding: 35px;

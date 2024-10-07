@@ -9,9 +9,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <!-- <li><a href="#about"></a></li>
-          <li><a href="#services">For Retail</a></li> -->
+          <!--<li><a href="#hero" class="active">Home</a></li>-->
+          <!-- <li><a href="#about"></a></li> -->
+          <li><a href="#games">For Games</a></li>
+          <li><a href="#retail">For Retail</a></li>
           <li><a href="#why-us">Team</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
@@ -39,9 +40,14 @@
                 </div>
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center aos-init aos-animate" data-aos="zoom-out">
                     <h1>Get Ready for the <strong style="font-weight: 300">SociableOS</strong><br />Alpha Launch</h1>
-                    <p>Our platform enables anyone to make, share, give, trade, buy and sell virtual or real goods, credits and coupons they own with their friends, anywhere, anytime while using any app or device.</p>
+                    <p>
+                        We're building a platform to enable anyone to make, share, give, trade, buy and sell virtual or real goods, credits and coupons they own with their friends, anywhere, anytime while using any app or device.
+                    </p>
+                    <p>
+                        If you're a developer read and contribute to v1 of our <a style="color: #63ff00" target="_blank" href="/assets/plugins/nodebb-theme-sociableos/assets/manifesto.html">manifesto</a> or if you're a builder <a style="color: #63ff00" href="#contact">get in touch with our CTO</a>
+                    </p>
                     <div class="d-flex">
-                        <a href="#contact" class="btn-get-started">Join the Movement</a>
+                        <a href="#contact" class="btn-get-started hidden-xs">Join the Movement</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +58,7 @@
 
     
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="games" class="about section">
       <!-- Section Title -->
       <div class="container section-title aos-init" data-aos="fade-up">
         <h2>For Games</h2>
@@ -76,11 +82,10 @@
             <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
 
               <div class="faq-item faq-active">
-                <h3>If you make games and want more players, more revenue, more exposure <span>help us build</span>a developer-centric virtual good sharing toolset.</h3>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item faq-active">
-                <h3><span>Collectibles</span>, <span>tradable items</span>, usable <span>objects</span>, aesthetic <span>effects</span>, and <span>actions</span> across games and applications.</h3>
+                <h3>
+                    If you make games and want more players, more revenue and more exposure we believe collaborating is the best way to get there
+                    Help us build a developer-centric virtual good sharing toolset where <span>collectibles</span>, <span>tradable items</span>, <span>usable objects</span>, <span>aesthetic effects</span>, and <span>actions</span> can be shared across games and applications.
+                </h3>
               </div><!-- End Faq item-->
             </div>
 
@@ -95,7 +100,7 @@
     </section><!-- /Why Us Section -->
     
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="retail" class="about section">
       <!-- Section Title -->
       <div class="container section-title aos-init" data-aos="fade-up">
         <h2>For Retail</h2>
@@ -120,7 +125,11 @@
             <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
 
               <div class="faq-item faq-active">
-                <h3>A natural game of <span>sharing</span>, <span>gifting</span>, <span>giving</span> and <span>getting</span>. Brand-based and user-generated <span>coupons</span>, virtual & real goods act as components of play and interaction.</h3>
+                <h3>
+                    <p>SociableOS will be a natural game of <span>sharing</span>, <span>gifting</span>, <span>giving</span> and <span>getting</span>. Brand-based and user-generated coupons, virtual & real goods all act as components of play and interaction.</p>
+                    <br />
+                    <p>Local stores can work together to create neighborhood promotions, users can share their favourite discoveries with others by actually giving them discounts or even whole items.</p>
+                </h3>
               </div><!-- End Faq item-->
 
             </div>
@@ -157,56 +166,32 @@
     <!-- Founders Section -->
     <section id="why-us" class="section why-us light-background" data-builder="section">
 
-      <div class="container-fluid">
+      <div class="container why-us" style="max-width: 100%">
 
-        <div class="row gy-4 section-explainer section-3">
+        <div class="row  ">
 
-          <div class="col-lg-7 order-2 order-lg-2 why-us-img">
-          </div>
-          <div class="col-lg-5 d-flex flex-column justify-content-center order-1 order-lg-1">
-
-            <div class="content px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="section-explainer-title"><span>The Mastermind </span><br /><strong>Nathon Gunn</strong></h3>
-            </div>
-
-            <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg faq-container section-explainer section-3">
+            <div class="section-explainer-container">
+              <h3 class="section-explainer-title"><span>The Skipper </span><br /><strong>Nathon Gunn</strong></h3>
 
               <div class="faq-item faq-active">
-                <h3>Co-founder of Social Game Universe, Lightning Platform, Bitcast, Citytv/Muchmusic Interactive, Miramax New Media.</h3>
+                <h3>Nathon is the co-founder of Social Game Universe, Lightning Platform, Bitcast, Citytv/Muchmusic Interactive, Miramax New Media.<br />
+He has advised two Canadian Prime Ministers, designed and built dozens of award winning casual games played 1bn+ times and directed music videos.<br />
+Coding when he was ten years old in India on an Apple IIe and a Commodore SX64 and later the Amiga in Malaysia, he now asks AI to write it for him.</h3>
               </div><!-- End Faq item-->
-
             </div>
 
           </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Founders Section -->
-
-    <!-- Founders Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
-
-      <div class="container-fluid">
-
-        <div class="row gy-4 section-explainer section-4">
-
-          <div class="col-lg-7 order-2 order-lg-2 why-us-img">
-          </div>
-          <div class="col-lg-5 d-flex flex-column justify-content-center order-1 order-lg-1">
-
-            <div class="content px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg faq-container section-explainer section-4">
+            <div class="section-explainer-container">
               <h3 class="section-explainer-title"><span>The Engineer </span><br /><strong>Andrew Rodrigues</strong></h3>
-            </div>
-
-            <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
 
               <div class="faq-item faq-active">
-                <h3>Founder of NodeBB, Former CTO at Social Game Universe, CTO SociableOS</h3>
+                <h3>Andrew is the founder of NodeBB, the premier online forum software which also forms the beginnings of our platform.  He was the former CTO of Social Game Universe, and is the current CTO of SociableOS.<br />
+Andrew is also a passionate musician and formed and performed in his own rock bands.
+</h3>
               </div><!-- End Faq item-->
-
             </div>
-
           </div>
         </div>
 
@@ -214,66 +199,40 @@
 
     </section><!-- /Founders Section -->
 
+
+
     <!-- Founders Section -->
     <section id="why-us" class="section why-us light-background" data-builder="section">
 
-      <div class="container-fluid">
+      <div class="container why-us" style="max-width: 100%">
 
-        <div class="row gy-4 section-explainer section-5">
+        <div class="row  ">
 
-          <div class="col-lg-7 order-2 order-lg-2 why-us-img">
-          </div>
-          <div class="col-lg-5 d-flex flex-column justify-content-center order-1 order-lg-1">
-
-            <div class="content px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="section-explainer-title"><span>The Sorceror </span><br /><strong>Brian Pullen</strong></h3>
-            </div>
-
-            <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg faq-container section-explainer section-5">
+            <div class="section-explainer-container">
+              <h3 class="section-explainer-title"><span>The Sorcerer </span><br /><strong>Brian Pullen</strong></h3>
 
               <div class="faq-item faq-active">
-                <h3>Co-Founder OSF Mgmt, Founding Design Director Stadia/Google, Fdr. Playground, Partner The Working Group</h3>
+                <h3>Brian is the co-founder of OSF Management (Capital management & quantitative crypto trading), Wavebird Club (the premier luxury aviation club in the Bahamas), and formerly the Design Lead of Stadia, founder of Playground and a former partner at The Working Group. <br />He is also the creator and host of Tabletop Titans, the premier Warhammer channel on Youtube</h3>
               </div><!-- End Faq item-->
-
             </div>
 
           </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Founders Section -->
-
-    <!-- Founders Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
-
-      <div class="container-fluid">
-
-        <div class="row gy-4 section-explainer section-6">
-
-          <div class="col-lg-7 order-2 order-lg-2 why-us-img">
-          </div>
-          <div class="col-lg-5 d-flex flex-column justify-content-center order-1 order-lg-1">
-
-            <div class="content px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg faq-container section-explainer section-6">
+            <div class="section-explainer-container">
               <h3 class="section-explainer-title"><span>The Professor </span><br /><strong>Jeremy Turner</strong></h3>
-            </div>
-
-            <div class="faq-container px-xl-5 aos-init" data-aos="fade-up" data-aos-delay="200">
 
               <div class="faq-item faq-active">
-                <h3>Professor in Cognitive Science at Simon Fraser University, PhD Interactive Arts & Technology (SFU) Cognitive Science, applied AI Philosophy</h3>
+                <h3>Jeremy is a professor in Cognitive Science at Simon Fraser University, has a PhD Interactive Arts & Technology (SFU) Cognitive Science, applied AI Philosophy and has developed groundbreaking virtual characters that interpolate user characteristics using quantum computing. He has a BA in Music Composition and was an early member of the punk scene in the Pacific Northwest.
+</h3>
               </div><!-- End Faq item-->
-
             </div>
-
           </div>
         </div>
 
       </div>
 
     </section><!-- /Founders Section -->
-
 
     <!-- Faq 2 Section -->
     <section id="faq" class="faq-2 section light-background">
@@ -302,9 +261,11 @@
 
               <div class="faq-item faq-active aos-init" data-aos="fade-up" data-aos-delay="300">
                 <i class="faq-icon bi bi-question-circle"></i>
-                <h3>That’s confusing can you give me an example?</h3>
+                <h3>What can I do with it?</h3>
                 <div class="faq-content">
-                  <p>Sure! One example might be to see (through the overlay we will enable) in your favourite game say, “Super Sorcerer”, that your friend Sarah is playing a mobile farm-type game, “Farmytown”. SociableOS will suggest items or actions you could perform on Sarah while you continue in “Super Sorcerer”, like “Make it Rain” (which might help her crops grow faster) or “Give her Seeds” which is what it sounds like. She might love this and send you a power for your sorcerer that you can only get when people are using SociableOS, she might even decide to try the game you’re playing, and you might try hers.</p>
+                  <p>If your friend Sarah is playing “Farmytown” but you’re playing “Super Sorcerer”. SociableOS will suggest things you can do like “Make it Rain” on her farm so her crops grow faster! In return she might give you a “Spell Power-up”.
+                  </p><br />
+                  <p>Despite being in different apps, you played together and discovered each others’ games. Or a bookstore could offer Sarah a free second-hand book if she spent over $20 at a local coffee shop and she could give it to you in exchange for an apple at the fruit market!</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
