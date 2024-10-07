@@ -2682,6 +2682,7 @@ section,
   overflow: hidden;
   border-radius: 3px;
   max-width: 75%;
+  opacity: 0.9;
 }
 
 .faq-container .faq-item .faq-content {
@@ -2700,4 +2701,27 @@ section,
 .why-us .content h3, .why-us .content .h3 {
   padding: 35px;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-explainer {
+    width: 100%;
+    padding-left: 0;
+  }
+  .why-us .faq-container .faq-item, .section-explainer .section-explainer-title {
+    max-width: 100%;
+  }
+
+  .section-explainer .section-explainer-title {
+    margin-bottom: 0;
+  }
+
+  .section-explainer .section-explainer-container {
+    bottom: 0;
+  }
+}
+
+#mc_embed_signup {
+
+  width: 100%;
 }
